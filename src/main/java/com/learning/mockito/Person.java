@@ -9,6 +9,7 @@ public class Person {
     }
 
     public void setName(String name) {
+        System.out.println("Setting variable name "+ name);
         this.name = name;
     }
 }
