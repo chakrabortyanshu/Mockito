@@ -9,5 +9,8 @@
         <module name="Learning Mockito" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Learning Mockito" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
