@@ -1,13 +1,14 @@
 package com.learning.mockito;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
+import org.mockito.ArgumentMatcher;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 import static org.mockito.ArgumentMatchers.anyInt;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 /**
  * Argument matchers allow flexible verification or stubbing.
@@ -25,7 +26,7 @@ public class ArgumentMatcherTest {
     @Test
     void argumentMatcherTest() {
 
-        List mockedList = Mockito.mock(List.class);
+        List mockedList = mock(List.class);
 
         //stubbing using built-in anyInt() argument matcher
         when(mockedList.get(anyInt())).thenReturn("element");
@@ -62,6 +63,41 @@ public class ArgumentMatcherTest {
          * compiler. The consequence is that you cannot use anyObject(), eq() methods outside of verified/stubbed method.
          */
     }
+
+    @Test
+    void argumentMatcherImplementationTest() {
+        List mock = mock(List.class);
+
+        when(mock.addAll(argThat(new ListOfTwoElements()))).thenReturn(true);
+
+
+        mock.addAll(Arrays.asList("one", "two"));
+
+        verify(mock).addAll(argThat(new ListOfTwoElements()));
+
+        //for more readability.
+        verify(mock).addAll(listOfTwoElements());
+
+        //In Java 8 you can treat ArgumentMatcher as a functional interface and use a lambda, e.g.:
+        verify(mock).addAll(argThat(list -> list.size() == 2));
+
+    }
+
+    private Collection listOfTwoElements() {
+        return argThat(new ListOfTwoElements());
+    }
+
+    class ListOfTwoElements implements ArgumentMatcher<List> {
+        public boolean matches(List list) {
+            return list.size() == 2;
+        }
+        public String toString() {
+            //printed in verification errors
+            return "[list of 2 elements]";
+        }
+    }
+
+    
 
 
 }
