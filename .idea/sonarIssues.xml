@@ -23,7 +23,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/mockito-extensions/org.mockito.plugins.MockMaker">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/ArgumentMatcherTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/AdditionalAnswerTest.java">
           <value>
             <set />
           </value>
@@ -48,6 +58,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/CustomVerifyDescriptionMessageTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/DMCallRealMethodTest.java">
           <value>
             <set />
@@ -58,7 +73,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/ExtendWithMockitoExtensionTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/FinalClassTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/InjectMockTest.java">
           <value>
             <set />
           </value>
@@ -68,12 +93,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/Java8LambdaArgumentMatcherTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/Java8LambdaCustomAnswerSupportTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockStaticMethodsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockingDetailsTest.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockingFinalClassWithToCallImplementedInterfacesUsingAdditionalAnswerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockingFinalTypeEnumsAndFinalMethodsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockitoAnnotationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockitoLenientTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/MockitoRuleTest.java">
           <value>
             <set />
           </value>
@@ -88,7 +148,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/PluginSwitchDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/ResettingMockingTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/SerializableAcrossClassLoadersTest.java">
           <value>
             <set />
           </value>
@@ -103,7 +173,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/SpyMockitoAnnotationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/SpyOnRealObjectTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/SpyOrMockAbstractClassOrInterfaceTest.java">
           <value>
             <set />
           </value>
@@ -169,6 +249,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/demo/MockCreationSettingDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/learning/mockito/demo/PluginSwitchDemo.java">
           <value>
             <set />
           </value>
