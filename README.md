@@ -13,9 +13,8 @@ Mockito Version 3.5.11
 
 ### Useful Tips
 #### Invalid use of argument matchers
-- Mockito requires you to either use only raw values or only matchers when stubbing a method call. The full exception (not posted by you here) surely explains everything.
+  Mockito requires you to either use only raw values or only matchers when stubbing a method call. The full exception (not posted by you here) surely explains everything.
   Simple change the line:
-  
 > when(jdbcTemplate.queryForObject(anyString(), any(SqlParameterSource.class), String.class)).thenReturn("Test");
 
 to
